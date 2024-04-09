@@ -9,15 +9,17 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lista Productos Niños"
+        android:text="Calendario"
         android:textStyle="bold"
         android:textSize="30sp"
         android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
         android:gravity="center"/>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewChild"
+    <CalendarView
+        android:id="@+id/calendarView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
 
 </LinearLayout>
