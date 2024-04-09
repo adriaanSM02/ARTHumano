@@ -7,28 +7,50 @@
     android:layout_gravity="center"
     tools:ignore="Orientation">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:src="@drawable/logo_tiendaonline_toluca_final" />
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Página Principal"
-        android:textStyle="bold"
-        android:textSize="30sp"
-        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="'Somos Inmortales'"
+        android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="260dp"
         android:layout_marginTop="15dp"
-        android:gravity="center"/>
+        android:layout_gravity="center"
+        android:src="@drawable/mas_vend_toluca_transp"/>
 
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewpager"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next  >"
-        android:backgroundTint="@color/escarlata"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Deportivo Toluca Fútbol Club"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Constituyentes Pte #1000, Barrio de San Bernardino, 50080 Toluca de Lerdo, Mex."
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textStyle="italic"
+        android:textSize="18dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -76,7 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="©2024, ArtHumano Consultores"
+            android:text="©2022, Toluca FC"
             android:gravity="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textStyle="bold"
